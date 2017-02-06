@@ -1,0 +1,72 @@
+<%- include('head') %>
+
+<!-- Page Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-4">
+            <div class="thumbnail" onclick="zoomImage(1)">
+                <img src="http://orion.trafikverket.se/CameraImages/share/wcm/548.jpg" alt="Lights" style="width:250px; height: 130px">
+                <div class="caption">
+                <p>Trafikplats Järva krog S</p>
+                </div>
+            </div>
+        </div> 
+        <div class="col-xs-4">
+            <div class="thumbnail" onclick="zoomImage(2)">
+                <img src="http://orion.trafikverket.se/CameraImages/share/wcm/546.jpg" alt="Lights" style="width:250px; height: 130px">
+                <div class="caption">
+                <p>Trafikplats Haga norra</p>
+                </div>
+            </div>
+        </div>  
+        <div class="col-xs-4">
+            <div class="thumbnail" onclick="zoomImage(3)">
+                <img src="http://orion.trafikverket.se/CameraImages/share/wcm/466.jpg" alt="Lights" style="width:250px; height: 130px">
+                <div class="caption">
+                <p>Tpl Hallunda</p>
+                </div>
+            </div>
+        </div>  
+        <div class="col-xs-4">
+            <div class="thumbnail" onclick="zoomImage(4)">
+                <img src="http://orion.trafikverket.se/CameraImages/share/itv/285.jpg" alt="Lights" style="width:250px; height: 130px">
+                <div class="caption">
+                <p>Nybohov</p>
+                </div>
+            </div>
+        </div>     
+        <div class="col-xs-4">
+            <div class="thumbnail" onclick="zoomImage(5)">
+                <img src="http://orion.trafikverket.se/CameraImages/share/itv/281.jpg" alt="Lights" style="width:250px; height: 130px">
+                <div class="caption">
+                <p>Fredhäll</p>
+                </div>
+            </div>
+        </div> 
+        <div class="col-xs-4">
+            <div class="thumbnail" onclick="zoomImage(6)">
+                <img src="http://orion.trafikverket.se/CameraImages/share/wcm/537.jpg" alt="Lights" style="width:250px; height: 130px">
+                <div class="caption">
+                <p>Överjärva</p>
+                </div>
+            </div>
+        </div>                                                                  
+    </div>
+    <!-- /.row -->    
+</div>
+<!-- /.container -->
+
+<!-- Small modal -->
+
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <img src="" id="modalImage" alt="Lights" style="width:100%">
+    </div>
+  </div>
+</div>
+
+<script src="/js/cameras.js">
+
+<%- include('footer') %>
